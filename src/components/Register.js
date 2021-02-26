@@ -57,7 +57,7 @@ class Register extends Component {
       e.stopPropagation();
     }else{
       register(newUser).then(res => {
-        this.props.history.push(`/login`)
+        this.props.history.push(`/deploy-foodfriend-miniproject/login`)
       })
     }
 

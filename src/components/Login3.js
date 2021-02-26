@@ -40,7 +40,7 @@ export class Login extends Component{
       }else{
         login(user).then(res => {
           if (res) {
-            this.props.history.push(`/profile`);
+            this.props.history.push(`/deploy-foodfriend-miniproject/profile`);
             console.log("Login suscess");
           }else{
             console.log("Login fail");

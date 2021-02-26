@@ -19,10 +19,10 @@ function App() {
                         <Header />
                     </div>
                     <div className="Container">
-                        <Route exact path="/" component={Home} />
-                        <Route exact path="/register" component={Register} />
-                        <Route exact path="/profile" component={Profile} />
-                        <Route exact path="/restaurant" component={Restaurantpage} />
+                        <Route exact path="/deploy-foodfriend-miniproject" component={Home} />
+                        <Route exact path="/deploy-foodfriend-miniproject/register" component={Register} />
+                        <Route exact path="/deploy-foodfriend-miniproject/profile" component={Profile} />
+                        <Route exact path="/deploy-foodfriend-miniproject/restaurant" component={Restaurantpage} />
                     </div>
                 </div>
                 <Footer />
