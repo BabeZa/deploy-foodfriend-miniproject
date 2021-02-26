@@ -22,7 +22,7 @@ export class Home extends Component {
                                 className="d-block w-100"
                                 src={p1}
                                 alt="First slide"
-                                href="/restaurant"
+                                href="/deploy-foodfriend-miniproject/restaurant"
                                 />
                                 <Carousel.Caption>
                                 
@@ -60,7 +60,7 @@ export class Home extends Component {
                                 <Popup
                                     trigger={
                                         <Card
-                                        href="/restaurant"
+                                        href="/deploy-foodfriend-miniproject/restaurant"
                                         >
                                             <Image  src='https://goodlifeupdate.com/app/uploads/2019/11/%E0%B8%89%E0%B8%B9%E0%B9%88%E0%B8%89%E0%B8%B5%E0%B9%88%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88-01-768x880.jpg' width='200px' height='150px' />
                                             <Card.Content>

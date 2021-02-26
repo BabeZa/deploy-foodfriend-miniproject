@@ -5,19 +5,19 @@ class Landing extends Component {
   logOut(e) {
     e.preventDefault()
     localStorage.removeItem('usertoken')
-    this.props.history.push(`/`)
+    this.props.history.push(`/deploy-foodfriend-miniproject/`)
   }
 
   render() {
     const loginRegLink = (
       <ul className="navbar-nav">
         <li className="nav-item">
-          <Link to="/login" className="nav-link">
+          <Link to="/deploy-foodfriend-miniproject/login" className="nav-link">
             Login
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/register" className="nav-link">
+          <Link to="/deploy-foodfriend-miniproject/register" className="nav-link">
             Register
           </Link>
         </li>
@@ -27,7 +27,7 @@ class Landing extends Component {
     const userLink = (
       <ul className="navbar-nav">
         <li className="nav-item">
-          <Link to="/profile" className="nav-link">
+          <Link to="/deploy-foodfriend-miniproject/profile" className="nav-link">
             User
           </Link>
         </li>
@@ -59,7 +59,7 @@ class Landing extends Component {
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link to="/" className="nav-link">
+              <Link to="/deploy-foodfriend-miniproject/" className="nav-link">
                 Home
               </Link>
             </li>
