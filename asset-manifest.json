@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/deploy-foodfriend-miniproject/static/css/main.2074d93d.chunk.css",
-    "main.js": "/deploy-foodfriend-miniproject/static/js/main.7d72d450.chunk.js",
-    "main.js.map": "/deploy-foodfriend-miniproject/static/js/main.7d72d450.chunk.js.map",
+    "main.js": "/deploy-foodfriend-miniproject/static/js/main.d1c7e54a.chunk.js",
+    "main.js.map": "/deploy-foodfriend-miniproject/static/js/main.d1c7e54a.chunk.js.map",
     "runtime-main.js": "/deploy-foodfriend-miniproject/static/js/runtime-main.6983bacb.js",
     "runtime-main.js.map": "/deploy-foodfriend-miniproject/static/js/runtime-main.6983bacb.js.map",
     "static/css/2.efc667a4.chunk.css": "/deploy-foodfriend-miniproject/static/css/2.efc667a4.chunk.css",
     "static/js/2.689bc309.chunk.js": "/deploy-foodfriend-miniproject/static/js/2.689bc309.chunk.js",
     "static/js/2.689bc309.chunk.js.map": "/deploy-foodfriend-miniproject/static/js/2.689bc309.chunk.js.map",
     "index.html": "/deploy-foodfriend-miniproject/index.html",
-    "precache-manifest.28a04a443ec1fbd9f0010d57e70dd436.js": "/deploy-foodfriend-miniproject/precache-manifest.28a04a443ec1fbd9f0010d57e70dd436.js",
+    "precache-manifest.32a07da148565223a0261f83cf3ad2cc.js": "/deploy-foodfriend-miniproject/precache-manifest.32a07da148565223a0261f83cf3ad2cc.js",
     "service-worker.js": "/deploy-foodfriend-miniproject/service-worker.js",
     "static/css/2.efc667a4.chunk.css.map": "/deploy-foodfriend-miniproject/static/css/2.efc667a4.chunk.css.map",
     "static/css/main.2074d93d.chunk.css.map": "/deploy-foodfriend-miniproject/static/css/main.2074d93d.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.efc667a4.chunk.css",
     "static/js/2.689bc309.chunk.js",
     "static/css/main.2074d93d.chunk.css",
-    "static/js/main.7d72d450.chunk.js"
+    "static/js/main.d1c7e54a.chunk.js"
   ]
 }
