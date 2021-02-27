@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { Carousel } from 'react-bootstrap';
+import p0 from './p0.jpg';
 import p1 from './p1.jpg';
 import p2 from './p2.jpg';
 import p3 from './p3.jpg';
@@ -20,9 +21,20 @@ export class Home extends Component {
                             <Carousel.Item>
                                 <img
                                 className="d-block w-100"
+                                src={p0}
+                                alt="First slide"
+                                href="/restaurant"
+                                />
+                                <Carousel.Caption>
+                                
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
                                 src={p1}
                                 alt="First slide"
-                                href="/deploy-foodfriend-miniproject/restaurant"
+                                href="/restaurant"
                                 />
                                 <Carousel.Caption>
                                 
@@ -60,7 +72,7 @@ export class Home extends Component {
                                 <Popup
                                     trigger={
                                         <Card
-                                        href="/deploy-foodfriend-miniproject/restaurant"
+                                        href="/restaurant"
                                         >
                                             <Image  src='https://goodlifeupdate.com/app/uploads/2019/11/%E0%B8%89%E0%B8%B9%E0%B9%88%E0%B8%89%E0%B8%B5%E0%B9%88%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88-01-768x880.jpg' width='200px' height='150px' />
                                             <Card.Content>

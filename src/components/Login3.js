@@ -40,7 +40,7 @@ export class Login extends Component{
       }else{
         login(user).then(res => {
           if (res) {
-            this.props.history.push(`/deploy-foodfriend-miniproject/profile`);
+            this.props.history.push(`/profile`);
             console.log("Login suscess");
           }else{
             console.log("Login fail");
@@ -110,7 +110,7 @@ export class Login extends Component{
           </Modal.Body>
           <Modal.Footer>
             Don't have an account?
-            <Button href="/deploy-foodfriend-miniproject/register" variant="link" >Sign Up</Button>
+            <Button href="/register" variant="link" >Sign Up</Button>
           </Modal.Footer>
         </Modal>
     );

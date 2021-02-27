@@ -25,7 +25,7 @@ class Header extends Component {
   logOut(e) {
     e.preventDefault()
     localStorage.removeItem('usertoken')
-    this.props.history.push(`/deploy-foodfriend-miniproject/`)
+    this.props.history.push(`/`)
   }
   
 
@@ -34,7 +34,7 @@ class Header extends Component {
     const loginRegLink = (
       <ul className="navbar-nav">
         <ButtonGroup>
-        <Button variant="outline-primary" href="/deploy-foodfriend-miniproject/register">Sign Up</Button>
+        <Button variant="outline-primary" href="/register">Sign Up</Button>
         <Button variant="outline-primary" onClick={() => this.setState({loginShow: true})}>Log In</Button>
         </ButtonGroup>
       </ul>
@@ -45,7 +45,7 @@ class Header extends Component {
         <ButtonGroup style={{ marginLeft: "auto" }}>
         <Button variant="outline-primary" disabled><img src={avatar} alt="Logo" /></Button>
         <DropdownButton variant="outline-primary" as={ButtonGroup} title="Setting" id="bg-nested-dropdown">
-          <Dropdown.Item eventKey="1" href="/deploy-foodfriend-miniproject/profile">Profile</Dropdown.Item>
+          <Dropdown.Item eventKey="1" href="/profile">Profile</Dropdown.Item>
           <Dropdown.Item eventKey="2" onClick={this.logOut.bind(this)}>Log Out</Dropdown.Item>
         </DropdownButton>
       </ButtonGroup>
@@ -56,7 +56,7 @@ class Header extends Component {
     return (
       <Navbar className="justify-content-md-center" bg="white" variant="white">
         <Col xs lg="3">
-          <Navbar.Brand href="/deploy-foodfriend-miniproject/"><img src={logo} alt="Logo" /></Navbar.Brand>
+          <Navbar.Brand href="/"><img src={logo} alt="Logo" /></Navbar.Brand>
         </Col>
         <Col xs lg="3">
           <InputGroup>
