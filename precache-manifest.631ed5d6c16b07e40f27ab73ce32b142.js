@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ace0b91e129dd7d9071e9a960f683635",
+    "revision": "49f3dce7a91bda3fc68b3d2cb78cf500",
     "url": "/deploy-foodfriend-miniproject/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/deploy-foodfriend-miniproject/static/css/2.efc667a4.chunk.css"
   },
   {
-    "revision": "96363da8ad885ee50319",
+    "revision": "7d8ddc5392778469c026",
     "url": "/deploy-foodfriend-miniproject/static/css/main.a3664178.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/deploy-foodfriend-miniproject/static/js/2.01a4fc38.chunk.js"
   },
   {
-    "revision": "96363da8ad885ee50319",
-    "url": "/deploy-foodfriend-miniproject/static/js/main.b63cbe52.chunk.js"
+    "revision": "7d8ddc5392778469c026",
+    "url": "/deploy-foodfriend-miniproject/static/js/main.058f3909.chunk.js"
   },
   {
     "revision": "5ab6fff6bdff158d9d9d",
