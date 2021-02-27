@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/deploy-foodfriend-miniproject/precache-manifest.32a07da148565223a0261f83cf3ad2cc.js"
+  "/deploy-foodfriend-miniproject/precache-manifest.b75b51089daa1cb1c5dc60034cbc25e7.js"
 );
 
 self.addEventListener('message', (event) => {
